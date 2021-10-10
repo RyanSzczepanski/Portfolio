@@ -13,4 +13,4 @@ function NavBar(props) {
   );
 }
 
-export default Card;
+export default NavBar;
