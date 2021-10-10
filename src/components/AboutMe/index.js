@@ -5,7 +5,6 @@ function AboutMe(props) {
   return (
     <div>
       <div id="about" className="section-header"></div>
-      <div className="">
         <div className="flex-row">
           <div className="section-title">
             <h1>About Me</h1>
@@ -15,7 +14,6 @@ function AboutMe(props) {
               <p className="body">{props.body}</p>
           </div>
         </div>
-      </div>
     </div>
   );
 }

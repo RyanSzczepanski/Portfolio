@@ -28,6 +28,7 @@ code {
   position: relative;
   top: -75px;
   visibility: hidden;
+  margin-top: 100px;
 }
 
 .flex-row {
