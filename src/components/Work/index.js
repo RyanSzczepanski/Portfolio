@@ -11,8 +11,8 @@ function Work(props) {
           <h1>Works</h1>
         </div>
         <div className="section-content">
-          {props.work.map(({ name, image, link }) => {
-            return <Card name={name} image={image} link={link} />;
+          {props.work.map(({ name, description, image, link, github}) => {
+            return <Card name={name} description={description} image={image} link={link} github={github} />;
           })}
         </div>
       </div>

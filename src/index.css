@@ -1,6 +1,7 @@
 :root {
   --primary-color: #1e90ff;
-  --secondary-color: #000;
+  --secondary-color: #5cd1ff;
+  --blackish: #353535;
 }
 
 
@@ -46,8 +47,13 @@ code {
 
 .section-content {
   font-size: 20px;
-  color: var(--primary-color);
+  color: var(--blackish);
   padding: 0 80px 0 40px;
   text-align: left;
   width: 100%;
+}
+
+a.nostyle {
+  color: inherit;
+  text-decoration: inherit;
 }

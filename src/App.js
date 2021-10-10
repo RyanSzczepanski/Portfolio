@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './components/NavBar/index.js';
 import Work from './components/Work/index.js'
 import AboutMe from './components/AboutMe/index.js'
+import Contact from './components/Contact/index.js'
 //Jsons
 import Projects from './jsons/projects.json'
 import AboutMeJson from './jsons/aboutme.json'
@@ -15,6 +16,7 @@ function App() {
     <div className="content">
       <AboutMe image={AboutMeJson.image} body={AboutMeJson.body}/>
       <Work work={Projects}/>
+      <Contact>
     </div>
   </div>
   );
