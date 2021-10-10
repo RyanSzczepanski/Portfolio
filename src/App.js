@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar/index.js';
 import Card from './components/Card/index.js'
 import Projects from './projects.json'
 
@@ -9,7 +10,7 @@ function App() {
   const [projectList, setProjectList] = useState(Projects);
 
   return (
-    
+    <NavBar/>
     //Returns all projects from projects.json
     projectList.map(({name, image, link})=>{
       return <Card name={name} image={image} link={link}/>
