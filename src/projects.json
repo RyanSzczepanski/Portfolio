@@ -8,5 +8,15 @@
         "name": "Test Name 2",
         "image": "https://via.placeholder.com/150",
         "link": "https://github.com/RyanSzczepanski/Portfolio/"
+    },
+    {
+        "name": "Test Name 3",
+        "image": "https://via.placeholder.com/150",
+        "link": "https://github.com/RyanSzczepanski/Portfolio/"
+    },
+    {
+        "name": "Test Name 4",
+        "image": "https://via.placeholder.com/150",
+        "link": "https://github.com/RyanSzczepanski/Portfolio/"
     }
 ]

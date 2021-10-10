@@ -11,11 +11,13 @@ function App() {
   const [projectList, setProjectList] = useState(Projects);
 
   return (
-    <div>
-        <NavBar/>
-    {projectList.map(({name, image, link})=>{
-      return <Card name={name} image={image} link={link}/>
-    })}
+  <div>
+    <NavBar/>
+    <div className="content">
+      {projectList.map(({name, image, link})=>{
+        return <Card name={name} image={image} link={link}/>
+      })}
+    </div>
   </div>
   );
 }
