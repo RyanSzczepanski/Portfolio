@@ -10,7 +10,7 @@ function Card(props) {
       <div className="content">
         <ul>
           <li>
-            {props.name} <i class="fab fa-github" href={props.link}></i>
+            {props.name} <a href={props.link}><i class="fab fa-github"></i></a>
           </li>
           <li>
             {props.description}
