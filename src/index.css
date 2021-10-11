@@ -39,6 +39,7 @@ code {
 }
 
 .section-title {
+  text-align: right;
   font-size: 24px;
   padding-right: 40px;
   flex: 0 0 250px;
