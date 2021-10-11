@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer(props) {
   return (
-<footer className="footer mt-auto py-3 bg-light d-flex flex-column">
+<footer className="footer mt-auto py-3 bg-dark d-flex flex-column">
   <div className="d-flex justify-content-between">
     <h1/>
     <a target="_blank" rel="noopener noreferrer" href="https://github.com/RyanSzczepanski"><i class="fab fa-github"></i></a>
