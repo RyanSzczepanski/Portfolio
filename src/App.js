@@ -7,6 +7,7 @@ import Work from "./components/Works/index.js";
 import AboutMe from "./components/AboutMe/index.js";
 import Contact from "./components/Contact/index.js";
 import Resume from "./components/Resume/index.js";
+import Footer from "./components/Footer/index.js";
 //Jsons
 import Projects from "./jsons/projects.json";
 import AboutMeJson from "./jsons/aboutme.json";
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <Header setPageSelected={setPageSelected} />
-      <div className="content">
+      <div className="content flex-fill">
         {pageSelected == "home" ||
         pageSelected == "about" ||
         pageSelected == "portfolio" ? (
@@ -30,6 +31,7 @@ function App() {
           <Resume/>
         )}
       </div>
+      <Footer/>
     </>
   );
 }
