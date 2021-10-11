@@ -1,0 +1,18 @@
+.contact-body h1{
+    color: var(--primary-color);
+    font-size: 36px;
+}
+
+label{
+    color: var(--primary-color);
+}
+
+input, label, textarea{
+    display:block;
+    width: 50%;
+    font-size: 20px;
+}
+
+input {
+    height: 20px;
+}

@@ -24,7 +24,6 @@ function App() {
       ) : (
         <Contact/>
       )}
-      {/* <Contact> */}
     </div>
   </>
   );
