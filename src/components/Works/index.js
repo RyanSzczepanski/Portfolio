@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Card from "../Card/index.js";
+import Project from "../Project/index.js";
 
 function Work(props) {
   return (
@@ -12,7 +12,7 @@ function Work(props) {
         </div>
         <div className="section-content">
           {props.work.map(({ name, description, image, link, github}) => {
-            return <Card name={name} description={description} image={image} link={link} github={github} />;
+            return <Project name={name} description={description} image={image} link={link} github={github} />;
           })}
         </div>
       </div>

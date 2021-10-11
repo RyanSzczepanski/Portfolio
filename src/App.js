@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 //Components
 import Header from "./components/Header/index.js";
-import Work from "./components/Work/index.js";
+import Work from "./components/Works/index.js";
 import AboutMe from "./components/AboutMe/index.js";
 import Contact from "./components/Contact/index.js";
 import Resume from "./components/Resume/index.js";
