@@ -1,3 +1,4 @@
+import {useState} from 'react'
 import logo from './logo.svg';
 import './App.css';
 //Components
@@ -10,15 +11,22 @@ import Projects from './jsons/projects.json'
 import AboutMeJson from './jsons/aboutme.json'
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
   return (
-  <div>
-    <NavBar/>
+  <>
+    <NavBar setContactSelected={setContactSelected}/>
     <div className="content">
-      <AboutMe image={AboutMeJson.image} body={AboutMeJson.body}/>
-      <Work work={Projects}/>
-      <Contact>
+      {!contactSelected ? (
+        <>
+          <AboutMe image={AboutMeJson.image} body={AboutMeJson.body}/>
+          <Work work={Projects}/>
+        </>
+      ) : (
+        <Contact/>
+      )}
+      {/* <Contact> */}
     </div>
-  </div>
+  </>
   );
 }
 

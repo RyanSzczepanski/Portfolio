@@ -5,7 +5,7 @@ import Card from "../Card/index.js";
 function Work(props) {
   return (
     <div>
-      <div id="portfolio" className="section-header"></div>
+      <div id="resume" className="section-header"></div>
       <div className="flex-row">
         <div className="section-title">
           <h1>Works</h1>
