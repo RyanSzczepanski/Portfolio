@@ -6,6 +6,7 @@ import Header from "./components/Header/index.js";
 import Work from "./components/Work/index.js";
 import AboutMe from "./components/AboutMe/index.js";
 import Contact from "./components/Contact/index.js";
+import Resume from "./components/Resume/index.js";
 //Jsons
 import Projects from "./jsons/projects.json";
 import AboutMeJson from "./jsons/aboutme.json";
@@ -26,9 +27,7 @@ function App() {
         ) : pageSelected == "contact" ? (
           <Contact />
         ) : (
-          <>
-          </>
-          //<Resume />
+          <Resume/>
         )}
       </div>
     </>
