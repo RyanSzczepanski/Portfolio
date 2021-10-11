@@ -3,7 +3,7 @@ import './style.css';
 
 function Header(props) {
   return (
-    <nav className="navbar">
+    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a className="left" href="#" onClick={() => props.setPageSelected("home")}>Ryan Szczepanski</a>
         <a href="#contact" onClick={() => props.setPageSelected("contact")}>Contact</a>
         <a href="#resume" onClick={() => props.setPageSelected("resume")}>Resume</a>
