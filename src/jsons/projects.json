@@ -3,8 +3,8 @@
         "name": "Covid Conquerors",
         "description": "Group Project: MangoDB/JS/GraphQL/React",
         "image": "./images/covid_conquerors.png",
-        "link": "https://game-watchers.herokuapp.com",
-        "github": "https://github.com/RyanSzczepanski/Game-Watchers"
+        "link": "https://covid-game1.herokuapp.com/game",
+        "github": "https://github.com/hlkirkness/group-project-3"
     },
     {
         "name": "Game Watchers",
