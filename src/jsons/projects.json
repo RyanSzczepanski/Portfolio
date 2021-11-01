@@ -1,5 +1,12 @@
 [
     {
+        "name": "Covid Conquerors",
+        "description": "Group Project: MangoDB/JS/GraphQL/React",
+        "image": "./images/covid_conquerors.png",
+        "link": "https://game-watchers.herokuapp.com",
+        "github": "https://github.com/RyanSzczepanski/Game-Watchers"
+    },
+    {
         "name": "Game Watchers",
         "description": "Solo Project: Handlebars/JS/SQL/Express",
         "image": "./images/game_watchers.png",
